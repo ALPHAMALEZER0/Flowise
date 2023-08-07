@@ -1,3 +1,3 @@
 @echo off
 
-node "%~dp0\run" %*
+node --max-old-space-size=4096 "%~dp0\run" %*
